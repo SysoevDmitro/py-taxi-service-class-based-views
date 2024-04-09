@@ -7,7 +7,7 @@ urlpatterns = [
     path("", index, name="index"),
     path("manufacturers/",
          ManufacturerListView.as_view(),
-         name="manufacturer_list"),
+         name="manufacturer-list"),
     path("cars/", CarListView.as_view(), name="car-list"),
     path("drivers/", DriverListView.as_view(), name="driver-list"),
     path("cars/<int:pk>/", CarDetailView.as_view(), name="car-detail"),
