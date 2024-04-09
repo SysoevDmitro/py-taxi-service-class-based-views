@@ -3,7 +3,7 @@ from django.urls import reverse
 
 from taxi.models import Manufacturer
 
-MANUFACTURER_LIST_URL = reverse("taxi:manufacturer_list")
+MANUFACTURER_LIST_URL = reverse("taxi:manufacturer-list")
 DRIVER_LIST_URL = reverse("taxi:driver-list")
 CAR_LIST_URL = reverse("taxi:car-list")
 PAGINATION = 5
